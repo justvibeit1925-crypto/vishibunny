@@ -1,4 +1,4 @@
-```tsx
+
 'use client'
 
 import { motion } from 'framer-motion'
@@ -44,6 +44,7 @@ I love you sooooo much.
 
 Please stay my sister forever. 💜🫂`
 
+
 export function PageLetter() {
   return (
     <PageShell dark center={false}>
@@ -73,4 +74,4 @@ export function PageLetter() {
     </PageShell>
   )
 }
-```
+
