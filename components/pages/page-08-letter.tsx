@@ -1,7 +1,7 @@
+```tsx
 'use client'
 
 import { motion } from 'framer-motion'
-import { useEffect, useRef, useState } from 'react'
 import { AmbientDecor, StarField } from '@/components/decorations'
 import { PageShell } from '@/components/pages/page-shell'
 
@@ -15,7 +15,7 @@ And because I am me, I started making weird stickers too. 😭
 
 I never thought that silly little sticker chaos would become the beginning of such a special friendship.
 
-Somewhere between the memes, stickers, random conversations, BTS/ Taekook chaos and all the little moments in between, you became my Sista.
+Somewhere between the memes, stickers, random conversations, BTS/Taekook chaos and all the little moments in between, you became my Sista.
 
 And then Milli and Divya literally adopted you as their second daughter. 😭
 
@@ -29,7 +29,7 @@ Even though we're in different cities, I never want distance to make this friend
 
 You're my Vishii bro.
 My Sticky Sis.
-WE Jikook DUO.
+We Jikook DUO.
 My sister.
 
 And I'm so grateful Eclipse GC brought you into my life.
@@ -44,38 +44,12 @@ I love you sooooo much.
 
 Please stay my sister forever. 💜🫂`
 
-
-
-function useTypewriter(text: string, start: boolean, speed = 22) {
-  const [out, setOut] = useState('')
-  const iRef = useRef(0)
-  useEffect(() => {
-    if (!start) return
-    iRef.current = 0
-    setOut('')
-    const id = setInterval(() => {
-      iRef.current += 1
-      setOut(text.slice(0, iRef.current))
-      if (iRef.current >= text.length) clearInterval(id)
-    }, speed)
-    return () => clearInterval(id)
-  }, [text, start, speed])
-  return out
-}
-
 export function PageLetter() {
-  const [start, setStart] = useState(false)
-  const typed = useTypewriter(message, start)
-
-  useEffect(() => {
-    const t = setTimeout(() => setStart(true), 500)
-    return () => clearTimeout(t)
-  }, [])
-
   return (
     <PageShell dark center={false}>
       <StarField count={55} />
       <AmbientDecor items={['💜', '✨', '🌷', '🌙']} />
+
       <div className="text-center">
         <motion.h1
           initial={{ opacity: 0, y: 16 }}
@@ -92,11 +66,11 @@ export function PageLetter() {
           className="paper mx-auto mt-6 max-w-sm rounded-2xl px-6 py-6 text-left"
         >
           <p className="font-hand whitespace-pre-line text-xl leading-snug text-ink">
-            {typed}
-            <span className="ml-0.5 inline-block h-5 w-0.5 animate-pulse bg-ink align-middle" />
+            {message}
           </p>
         </motion.div>
       </div>
     </PageShell>
   )
 }
+```
