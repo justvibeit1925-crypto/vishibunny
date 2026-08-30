@@ -5,15 +5,46 @@ import { useEffect, useRef, useState } from 'react'
 import { AmbientDecor, StarField } from '@/components/decorations'
 import { PageShell } from '@/components/pages/page-shell'
 
-const message = `Happy ONE YEAR to my favieee and only sistaaaaaaa 💜🌷
+const message = `💌 Dear Vishii bro...
 
-One whole year since Eclipse GC brought us together!!!! Even though we don't talk a lot, I always find you cool like you are super duper cool!!!!! I love you sooooo much.
+Sometimes I still can't believe that someone I met through a random GC ended up becoming someone who feels like a real sister to me.
 
-We started as weird bro and sticker bro... now we are DA SISTASSSS. We da awesome sistaassss ikkkk!!!
+When we first met, you were just my Sticky Bro — the girl who was always sending memes, stickers and random chaotic things in Eclipse GC.
 
-ALWAYS be my sistaaa. Only mine, don't find another sistaaaa.
+And because I am me, I started making weird stickers too. 😭
 
-I will annoy youuuu muehehe ✨😝✌️`
+I never thought that silly little sticker chaos would become the beginning of such a special friendship.
+
+Somewhere between the memes, stickers, random conversations, BTS/Jikook chaos and all the little moments in between, you became my Sista.
+
+And then Milli and Divya literally adopted you as their second daughter. 😭
+
+At this point, you're not escaping this family.
+
+You genuinely feel like my real sister.
+
+You're seriously the cutest, happiest little bean, and I love your energy so much.
+
+Even though we're in different cities, I never want distance to make this friendship feel any smaller.
+
+You're my Vishii bro.
+My Sticky Sis.
+My Jikook partner.
+My sister.
+
+And I'm so grateful Eclipse GC brought you into my life.
+
+Thank you for every meme.
+Every sticker.
+Every random conversation.
+Every "SISTAAAAA."
+Every stupid little memory.
+
+I love you sooooo much.
+
+Please stay my sister forever. 💜🫂`
+```
+
 
 function useTypewriter(text: string, start: boolean, speed = 22) {
   const [out, setOut] = useState('')
