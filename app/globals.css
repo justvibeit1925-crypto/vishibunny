@@ -1,0 +1,118 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+  --font-hand: var(--font-caveat), ui-sans-serif, cursive;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* lavender palette */
+  --color-lav-100: #f7f2fc;
+  --color-lav-200: #eee7f8;
+  --color-lav-300: #e8ddf8;
+  --color-lav-400: #dccff7;
+  --color-lav-500: #cbbbef;
+  --color-lav-600: #b9a7e0;
+  --color-lav-700: #9b86c9;
+
+  --color-pink-soft: #f6c9df;
+  --color-pink-accent: #f3b6d2;
+
+  --color-ink: #40364d;
+  --color-ink-soft: #5c5068;
+
+  --color-night: #2a2140;
+  --color-night-deep: #1d1730;
+
+  --radius: 1rem;
+}
+
+:root {
+  color-scheme: light;
+  --background: #f7f2fc;
+  --foreground: #40364d;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-lav-400);
+  }
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .font-hand {
+    font-family: var(--font-hand);
+  }
+
+  /* Paper texture for scrapbook cards */
+  .paper {
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.6) 0%, transparent 45%),
+      linear-gradient(180deg, #fffdfb 0%, #fbf6ff 100%);
+    box-shadow:
+      0 10px 30px -12px rgba(90, 70, 130, 0.35),
+      inset 0 0 0 1px rgba(255, 255, 255, 0.6);
+  }
+
+  .night-sky {
+    background:
+      radial-gradient(1200px 500px at 50% -10%, #3a2f5c 0%, transparent 60%),
+      linear-gradient(180deg, #241d3b 0%, #1d1730 60%, #150f26 100%);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 18px rgba(203, 187, 239, 0.7);
+  }
+
+  /* washi tape strip */
+  .washi {
+    background:
+      repeating-linear-gradient(
+        45deg,
+        rgba(185, 167, 224, 0.55) 0px,
+        rgba(185, 167, 224, 0.55) 6px,
+        rgba(220, 207, 247, 0.55) 6px,
+        rgba(220, 207, 247, 0.55) 12px
+      );
+    box-shadow: 0 1px 4px rgba(90, 70, 130, 0.2);
+  }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.25;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
+@keyframes floaty {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
