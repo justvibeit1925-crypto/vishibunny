@@ -9,7 +9,7 @@ import { PageShell } from '@/components/pages/page-shell'
 const reasons = [
   { front: 'reason #1', back: 'STICKYYYY BROOO 😭', emoji: '⭐' },
   { front: 'reason #2', back: 'VISHIIIIIIIII 💜', emoji: '💜' },
-  { front: 'reason #3', back: 'LOBBLY SISTERRR 🫂', emoji: '🫂' },
+  { front: 'reason #3', back: 'Bunny SISTERRR 🫂', emoji: '🫂' },
   { front: 'reason #4', back: "YOU'RE CUTE AF 🎀", emoji: '🎀' },
   { front: 'reason #5', back: 'MY CUTE LITTLE SISTAAAA 🥹', emoji: '🥹' },
   { front: 'reason #6', back: 'ONLY MY SISTA. NO REFUNDS. 😤💜', emoji: '🔒' },
