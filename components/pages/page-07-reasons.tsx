@@ -7,12 +7,12 @@ import { useBurst } from '@/components/burst-context'
 import { PageShell } from '@/components/pages/page-shell'
 
 const reasons = [
-  { front: 'reason #1', back: "you're super duper COOL 😎", emoji: '⭐' },
-  { front: 'reason #2', back: 'you always make me laugh 😭', emoji: '🤣' },
-  { front: 'reason #3', back: 'our jikook obsession fr 💜', emoji: '🐰' },
-  { front: 'reason #4', back: 'weird bro → best sista 🫂', emoji: '🎀' },
-  { front: 'reason #5', back: 'you annoy me perfectly muehehe ✌️', emoji: '😝' },
-  { front: 'reason #6', back: "you're MINE. only mine 💗", emoji: '🔒' },
+  { front: 'reason #1', back: 'STICKYYYY BROOO 😭', emoji: '⭐' },
+  { front: 'reason #2', back: 'VISHIIIIIIIII 💜', emoji: '💜' },
+  { front: 'reason #3', back: 'LOBBLY SISTERRR 🫂', emoji: '🫂' },
+  { front: 'reason #4', back: "YOU'RE CUTE AF 🎀", emoji: '🎀' },
+  { front: 'reason #5', back: 'MY CUTE LITTLE SISTAAAA 🥹', emoji: '🥹' },
+  { front: 'reason #6', back: 'ONLY MY SISTA. NO REFUNDS. 😤💜', emoji: '🔒' },
 ]
 
 export function PageReasons() {
