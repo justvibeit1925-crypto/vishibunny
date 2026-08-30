@@ -7,9 +7,9 @@ import { Polaroid } from '@/components/polaroid'
 import { PageShell } from '@/components/pages/page-shell'
 import { photos } from '@/lib/photos'
 
-const message = `Happiest birthday to my favieee and only sistaaaaaaa 💜🌷
+const message = `Happy ONE YEAR to my favieee and only sistaaaaaaa 💜🌷
 
-Even though we don't talk a lot, I always find you cool like you are super duper cool!!!!! I love you sooooo much.
+One whole year since Eclipse GC brought us together!!!! Even though we don't talk a lot, I always find you cool like you are super duper cool!!!!! I love you sooooo much.
 
 We started as weird bro and sticker bro... now we are DA SISTASSSS. We da awesome sistaassss ikkkk!!!
 
@@ -73,7 +73,7 @@ export function PageLetter() {
             photo={photos.birthday}
             rotate={-3}
             sticker="💜"
-            caption="the original bday msg ♡"
+            caption="our lil love note ♡"
             widthClass="w-48"
           />
         </div>

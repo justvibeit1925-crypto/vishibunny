@@ -16,9 +16,9 @@ const nunito = Nunito({
 })
 
 export const metadata: Metadata = {
-  title: 'For my Vishii bro ♡',
+  title: 'Happy 1 Year, Vishi ♡ Eclipse GC',
   description:
-    'A tiny lavender scrapbook made by Mubi for her Sista Vishi — from Eclipse GC to family. 💜',
+    'A tiny lavender scrapbook celebrating one year together — from Eclipse GC to family. 💜',
   generator: 'v0.app',
 }
 
