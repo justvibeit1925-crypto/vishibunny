@@ -43,7 +43,7 @@ Every stupid little memory.
 I love you sooooo much.
 
 Please stay my sister forever. 💜🫂`
-```
+
 
 
 function useTypewriter(text: string, start: boolean, speed = 22) {
