@@ -35,7 +35,7 @@ export function PageFinale({ onRestart }: { onRestart: () => void }) {
           transition={{ type: 'spring', stiffness: 160, damping: 14, delay: 0.15 }}
           className="font-hand mt-4 text-5xl leading-tight text-lav-200 text-glow"
         >
-          HAPPY 1 YEAR, VISHI TO US💗
+          HAPPY 1 YEAR TO US, VISHI💗
           <br />
           ✦ ECLIPSE GC ✦
         </motion.h1>
@@ -46,7 +46,7 @@ export function PageFinale({ onRestart }: { onRestart: () => void }) {
           transition={{ delay: 0.6 }}
           className="mx-auto mt-5 max-w-sm text-sm leading-relaxed text-lav-200/90"
         >
-          One whole year together. I love you soooo much veey muchhh MWAHHH 💜🌷🫂
+          One whole year together, lets build more years togather. I love you soooo much veey muchhh MWAHHH 💜🌷🫂
         </motion.p>
 
         <div className="mt-8 flex flex-col items-center gap-3">
