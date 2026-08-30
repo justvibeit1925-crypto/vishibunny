@@ -3,9 +3,7 @@
 import { motion } from 'framer-motion'
 import { useEffect, useRef, useState } from 'react'
 import { AmbientDecor, StarField } from '@/components/decorations'
-import { Polaroid } from '@/components/polaroid'
 import { PageShell } from '@/components/pages/page-shell'
-import { photos } from '@/lib/photos'
 
 const message = `Happy ONE YEAR to my favieee and only sistaaaaaaa 💜🌷
 
@@ -67,16 +65,6 @@ export function PageLetter() {
             <span className="ml-0.5 inline-block h-5 w-0.5 animate-pulse bg-ink align-middle" />
           </p>
         </motion.div>
-
-        <div className="mt-7 flex justify-center pb-2">
-          <Polaroid
-            photo={photos.birthday}
-            rotate={-3}
-            sticker="💜"
-            caption="our lil love note ♡"
-            widthClass="w-48"
-          />
-        </div>
       </div>
     </PageShell>
   )
