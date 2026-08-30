@@ -35,7 +35,7 @@ export function PageFinale({ onRestart }: { onRestart: () => void }) {
           transition={{ type: 'spring', stiffness: 160, damping: 14, delay: 0.15 }}
           className="font-hand mt-4 text-5xl leading-tight text-lav-200 text-glow"
         >
-          HAPPY 1 YEAR TO US,VISHI💗
+          HAPPY 1 YEAR TO US, VISHI💗
           <br />
           ✦ ECLIPSE GC ✦
         </motion.h1>
