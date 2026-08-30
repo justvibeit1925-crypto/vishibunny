@@ -15,7 +15,7 @@ And because I am me, I started making weird stickers too. 😭
 
 I never thought that silly little sticker chaos would become the beginning of such a special friendship.
 
-Somewhere between the memes, stickers, random conversations, BTS/Jikook chaos and all the little moments in between, you became my Sista.
+Somewhere between the memes, stickers, random conversations, BTS/ Taekook chaos and all the little moments in between, you became my Sista.
 
 And then Milli and Divya literally adopted you as their second daughter. 😭
 
@@ -29,7 +29,7 @@ Even though we're in different cities, I never want distance to make this friend
 
 You're my Vishii bro.
 My Sticky Sis.
-My Jikook partner.
+WE Jikook DUO.
 My sister.
 
 And I'm so grateful Eclipse GC brought you into my life.
